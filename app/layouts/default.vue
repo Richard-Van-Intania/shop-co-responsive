@@ -2,9 +2,8 @@
 
 <template>
     <div>
-        <TopBanner />
+        <TopAppBar />
         <div class="h-[38px]" />
-        <TopNavMobile />
         <slot />
         <BottomFooter />
     </div>

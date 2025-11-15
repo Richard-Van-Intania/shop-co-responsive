@@ -1,7 +1,11 @@
 <script setup lang="ts"></script>
 
 <template>
-    <div class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">holaaaa</div>
+    <div class="fixed left-0 top-0 right-0 z-10">
+        <TopBanner />
+        <div class="block"><TopNavMobile /></div>
+        <div class="block"><TopNavDesktop /></div>
+    </div>
 </template>
 
 <style scoped></style>
