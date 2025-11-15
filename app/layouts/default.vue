@@ -1,7 +1,13 @@
 <script setup lang="ts"></script>
 
 <template>
-    <div><slot /></div>
+    <div>
+        <TopBanner />
+        <div class="h-[38px]" />
+        <TopNavMobile />
+        <slot />
+        <BottomFooter />
+    </div>
 </template>
 
 <style scoped></style>
