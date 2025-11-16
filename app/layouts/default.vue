@@ -11,8 +11,8 @@
         <div class="h-[72px] block xl:hidden" />
         <div class="h-[120px] hidden xl:block" />
         <div class="bg-white"><slot /></div>
-        <!-- <BottomFooterMobile /> -->
-        <BottomFooterDesktop />
+        <div class="block xl:hidden"><BottomFooterMobile /></div>
+        <div class="hidden xl:block"><BottomFooterDesktop /></div>
     </div>
 </template>
 

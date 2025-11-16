@@ -29,9 +29,15 @@ function submitted() {
         </div>
         <div class="px-[120px] bg-search-grey pt-32 flex flex-col">
             <div class="flex justify-between">
-                <div class="flex flex-col">
-                    <div>s</div>
-                    <div>w</div>
+                <div class="flex flex-col max-w-[320px]">
+                    <div class="text-[32px] text-black font-itgb">SHOP.CO</div>
+                    <div class="text-[14px] font-stv text-blk-op-60 my-4">We have clothes that suits your style and which you’re proud to wear. From women to men.</div>
+                    <div class="my-4 flex gap-4">
+                        <button type="button" class="btn" @click="debugClicked('closed!!')"><Icon name="ri:twitter-fill" style="color: black" size="32px" /></button>
+                        <button type="button" class="btn" @click="debugClicked('closed!!')"><Icon name="ri:facebook-circle-fill" style="color: black" size="32px" /></button>
+                        <button type="button" class="btn" @click="debugClicked('closed!!')"><Icon name="ri:instagram-fill" style="color: black" size="32px" /></button>
+                        <button type="button" class="btn" @click="debugClicked('closed!!')"><Icon name="ri:github-fill" style="color: black" size="32px" /></button>
+                    </div>
                 </div>
                 <div class="flex flex-col">
                     <div class="footer-title">COMPANY</div>
@@ -62,8 +68,8 @@ function submitted() {
                     <div class="footer-link"><NuxtLink to="/">Youtube Playlist</NuxtLink></div>
                 </div>
             </div>
-            <div class="my-6"><HorizontalRule /></div>
-            <div class="flex gap-x">
+            <div class="mt-8 mb-4"><HorizontalRule /></div>
+            <div class="flex gap-x mb-10">
                 <div class="flex-1 text-[14px] font-stv text-blk-op-60">Shop.co © 2000-2023, All Rights Reserved</div>
                 <NuxtImg src="/images/payments/visa.png" height="48" />
                 <NuxtImg src="/images/payments/maset.png" height="48" />
@@ -77,15 +83,16 @@ function submitted() {
 
 <style scoped>
 .footer-title {
-    font-size: 14px;
+    font-size: 16px;
     font-family: var(--font-stv);
-    margin-top: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     letter-spacing: 3px;
 }
 
 .footer-link {
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     font-family: var(--font-stv);
     color: var(--color-blk-op-60);
     margin-top: 8px;
