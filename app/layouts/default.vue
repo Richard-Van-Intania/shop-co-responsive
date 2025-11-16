@@ -10,8 +10,8 @@
         <div class="h-[38px]" />
         <div class="h-[72px] block xl:hidden" />
         <div class="h-[120px] hidden xl:block" />
-        <slot />
-        <BottomFooterMobile />
+        <div class="bg-white"><slot /></div>
+        <!-- <BottomFooterMobile /> -->
         <BottomFooterDesktop />
     </div>
 </template>
