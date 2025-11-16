@@ -2,7 +2,7 @@
 
 <template>
     <div>
-        <div class="fixed left-0 top-0 right-0 z-20">
+        <div class="fixed left-0 top-0 right-0 z-10">
             <TopBanner />
             <div class="block xl:hidden"><TopNavMobile /></div>
             <div class="hidden xl:block"><TopNavDesktop /></div>
