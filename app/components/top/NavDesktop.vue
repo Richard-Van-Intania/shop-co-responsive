@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-    <div class="flex items-center px-[120px] h-[120px] bg-green-500">
+    <div class="flex items-center px-[120px] h-[120px] bg-white">
         <div class="text-[32px] text-black font-itgb pb-2 mr-16"><NuxtLink to="/">SHOP.CO</NuxtLink></div>
         <button type="button" class="cursor-pointer flex justify-center items-center mr-10" @click="debugClicked('closed!!')">
             <div class="text-[16px] font-stv">Shop</div>
