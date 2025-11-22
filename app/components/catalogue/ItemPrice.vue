@@ -4,7 +4,7 @@ const props = defineProps({ price: { type: Number, required: true }, discounted:
 
 <template>
     <div class="flex items-center font-stv">
-        <div v-if="props.discounted == null" class="font-bold text-[20px] sm:text-[21px] md:text-[22px] lg:text-[23px] xl:text-[24px]">${{ props.price }}</div>
+        <div v-if="props.discounted === null" class="font-bold text-[20px] sm:text-[21px] md:text-[22px] lg:text-[23px] xl:text-[24px]">${{ props.price }}</div>
         <div v-else class="flex items-center gap-3">
             <div class="font-bold text-[20px] sm:text-[21px] md:text-[22px] lg:text-[23px] xl:text-[24px]">${{ props.discounted }}</div>
             <div class="font-bold text-blk-op-40 line-through decoration-blk-op-40 text-[20px] sm:text-[21px] md:text-[22px] lg:text-[23px] xl:text-[24px]">${{ props.price }}</div>
