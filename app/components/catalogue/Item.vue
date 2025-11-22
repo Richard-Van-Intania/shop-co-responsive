@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-    <div></div>
+    <div class="flex flex-col w-[200px]"></div>
 </template>
 
 <style scoped></style>

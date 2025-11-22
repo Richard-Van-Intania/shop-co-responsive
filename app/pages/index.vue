@@ -11,6 +11,7 @@ import ItemName from "~/components/catalogue/ItemName.vue";
     <div class="h-4"></div>
     <CatalogueItemName label="T-Shirt With Tape Details" />
     <ItemRating v-bind:rating="4.9" v-bind:show-score="true" />
+    <CatalogueItemPrice v-bind:price="120" v-bind:discounted="110" />
     <div class="h-4"></div>
     <div class="h-10 bg-red-300 sm:bg-yellow-300 md:bg-emerald-300 lg:bg-sky-300 xl:bg-violet-300"></div>
     <div class="h-4"></div>
