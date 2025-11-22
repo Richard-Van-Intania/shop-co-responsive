@@ -10,7 +10,7 @@
                 <div class="pt-8 max-w-[320px]"><button type="button" class="bg-black w-full h-14 rounded-full text-[16px] font-stv font-medium text-white cursor-pointer" v-on:click="debugClicked('Shop Now')">Shop Now</button></div>
                 <div class="pt-8">
                     <div class="flex gap-8">
-                        <HomeStatistics label="International Brands" v-bind:numeral="200" /><VerticalRule /> <HomeStatistics label="High-Quality Products" v-bind:numeral="2000" /><VerticalRule />
+                        <HomeStatistics label="International Brands" v-bind:numeral="200" /><SharedVerticalRule /> <HomeStatistics label="High-Quality Products" v-bind:numeral="2000" /><SharedVerticalRule />
                         <HomeStatistics label="Happy Customers" v-bind:numeral="30000" />
                     </div>
                 </div>

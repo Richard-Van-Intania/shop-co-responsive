@@ -59,7 +59,7 @@ function submitted() {
                     <div class="footer-link"><NuxtLink to="/">Youtube Playlist</NuxtLink></div>
                 </div>
             </div>
-            <div class="my-6"><HorizontalRule /></div>
+            <div class="my-6"><SharedHorizontalRule /></div>
             <div class="text-[14px] font-stv text-blk-op-60 text-center">Shop.co © 2000-2023, All Rights Reserved</div>
             <div class="flex justify-center items-center gap-x mt-4 mb-12">
                 <NuxtImg src="/images/payments/visa.png" height="48" />
