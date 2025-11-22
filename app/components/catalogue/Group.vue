@@ -10,7 +10,7 @@ const item = { source: "/items/Frame 32.png", label: "T-Shirt With Tape Details"
 <template>
     <div class="px-4 xl:px-[120px]">
         <CatalogueGroupBanner v-bind:label="props.label" />
-        <CatalogueItem v-bind:item="item" />
+        <div class="flex gap-1"><CatalogueItem v-bind:item="item" /></div>
         <SharedHorizontalRule />
     </div>
 </template>
